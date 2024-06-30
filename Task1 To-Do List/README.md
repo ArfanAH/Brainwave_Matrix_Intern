@@ -1,1 +1,2 @@
+This To-Do List application enables users to manage tasks efficiently by adding new tasks, marking them as important, editing, marking as done, and deleting tasks. Important tasks are pinned to the top and indicated with a star icon. Each task includes "Edit," "Done," and "Delete" buttons, allowing users to modify task text, toggle completion status, and remove tasks. The "Edit" mode hides the "Done" and "Delete" buttons.
 
