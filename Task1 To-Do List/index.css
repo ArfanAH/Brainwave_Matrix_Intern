@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #131313;
+}
+
+.container {
+  width: 700px;
+  padding: 20px;
+  background-color: bisque;
+  border: 1px solid #000000;
+  box-shadow: 0 0 0 1px #464646;
+  border-radius: 10px;
+  text-align: center;
+
+}
+p{
+  font-weight: 600;
+  margin-top: 10px;
+}
+input[type="text"]{
+  width: 500px;
+  padding: 15px 20px;
+  border: 1px solid #8a8a8a;
+  border-radius: 15px;
+  font-size: 16px;
+
+}
+.imp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imp p{
+  margin-top: 18px;
+  margin-left: 5px;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#taskList li {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #838383;
+  border-radius: 8px;
+}
+
+.taskText {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#donebtn {
+  margin-left: 5px;
+  background: yellow;
+  border: 1px solid rgb(146, 146, 146);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 80px;
+}
+#donebtn:hover {
+  background: rgb(220, 220, 42);
+}
+#editbtn {
+  margin-left: 5px;
+  background: rgb(0, 149, 255);
+  border: 1px solid rgb(146, 146, 146);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 80px;
+}
+#editbtn:hover {
+  background: rgb(15, 118, 197);
+}
+#rmvbtn {
+  margin-left: 5px;
+  background: rgb(255, 0, 0);
+  border: 1px solid rgb(146, 146, 146);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 80px;
+}
+#rmvbtn:hover {
+  background: rgb(181, 37, 37);
+}
+#addbtn {
+  margin-left: 5px;
+  background: rgb(0, 255, 26);
+  border: 1px solid rgb(146, 146, 146);
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 60px;
+}
+#addbtn:hover {
+  background: rgb(33, 166, 46);
+}
+
+.important .taskText:before {
+  content: "\f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-right: 10px;
+  color: rgb(255, 113, 4);
+}
